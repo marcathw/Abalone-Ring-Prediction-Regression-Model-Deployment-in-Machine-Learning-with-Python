@@ -1,4 +1,4 @@
-# 🐚 Abalone Age Prediction Using Linear Regression and FastAPI
+# 🐚 Abalone Ring Prediction Using Linear Regression and FastAPI
 
 This project predicts the rings of abalone based on physical measurements using a Linear Regression model. The solution is deployed as a RESTful API using FastAPI, allowing users to send input features and receive predictions in real time.
 
