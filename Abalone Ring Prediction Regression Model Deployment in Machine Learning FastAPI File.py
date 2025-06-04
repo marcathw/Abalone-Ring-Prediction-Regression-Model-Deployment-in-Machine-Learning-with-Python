@@ -6,7 +6,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-pickle_in = open("Exercise_Abalone.pkl", "rb")
+pickle_in = open("Abalone Ring Prediction Regression Model Deployment in Machine Learning Pickle File.pkl", "rb")
 modelling = pickle.load(pickle_in)
 
 class abalone_input(BaseModel):
